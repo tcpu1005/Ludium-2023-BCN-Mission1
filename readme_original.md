@@ -2,7 +2,6 @@
 
 오리지널 md 변경 내용 확인하기
 
-
 ## ECDSA Node
 
 This project is an example of using a client and server to facilitate transfers between different addresses. Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.
@@ -34,4 +33,4 @@ The server folder contains a node.js server using [express](https://expressjs.co
 
 The application should connect to the default server port (3042) automatically!
 
-_Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
+_Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.dd

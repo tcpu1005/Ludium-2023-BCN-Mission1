@@ -84,6 +84,8 @@ Link next is the source (Alchemy University - Blockchain Developer bootcamp)  Tr
 - 지갑의 소유자를 구분해서, 자기 지갑에서만 송금하게끔 권한을 제한해야 합니다.
 - **public key cryptography를 이용해, 유저에게 소유권을 줄 수 있습니다.**
     - 유저에게 private key를 주고, 그 키를 통해서 송금할 수 있게 합니다.
+정리하자면, 개인 키를 아는 사람만 그 사람의 소유한 지갑에서 암호화폐를 송금할 수 있다는 것.
+따라서 이는 지갑 소유자를 구분하며 송금 권환을 나눠주어 권한을 제한하는데 사용한다.
     
     > That's the goal of this project, is to get it to a point where use public key cryptography so we can give out addresses to specific users and only they can move funds by telling the server that they would like to.
     > 
